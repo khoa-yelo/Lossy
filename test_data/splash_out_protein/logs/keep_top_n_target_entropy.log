@@ -1,0 +1,39 @@
+2025-01-05 00:01:26: /usr/bin/time -v /scratch/users/khoang99/build/splash2.6.1/dsv_manip limit         --select highest         --sort         --sort_order desc         --value_type double         10000         target_entropy         result.after_correction.scores.tsv         result.after_correction.scores.top_target_entropy.tsv
+Welcome to dsv_manip (simple manipulation of dsv or delimiter-separated values file format
+n                              : 10000
+col_name                       : target_entropy
+input                          : result.after_correction.scores.tsv
+output                         : result.after_correction.scores.top_target_entropy.tsv
+select                         : highest
+separator                      : TAB
+sort                           : true
+sort_order                     : desc
+value_type                     : double
+col id: 8
+Load the data and select...
+Done.
+Sorting...
+Done.
+	Command being timed: "/scratch/users/khoang99/build/splash2.6.1/dsv_manip limit --select highest --sort --sort_order desc --value_type double 10000 target_entropy result.after_correction.scores.tsv result.after_correction.scores.top_target_entropy.tsv"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 50%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 772
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 226
+	Voluntary context switches: 5
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

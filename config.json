@@ -1,0 +1,8 @@
+{
+    "input_dir": "/oak/stanford/groups/horence/khoa/scratch/scripts/Lossy/test_data/test_seqs",
+    "output_dir": "/oak/stanford/groups/horence/khoa/scratch/scripts/Lossy/test_data/test_seqs_lossy",
+    "encode_method": "translation",
+    "decode_method": "direct_mapping",
+    "dictionary": "/oak/stanford/groups/horence/khoa/scratch/scripts/Lossy/codon_table.json",
+    "k": 18
+}

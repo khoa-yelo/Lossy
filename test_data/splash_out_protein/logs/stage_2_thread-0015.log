@@ -1,0 +1,125 @@
+2025-01-05 00:01:25: /usr/bin/time -v /scratch/users/khoang99/build/splash2.6.1/satc_merge     --technology base                                        --max_pval_opt_for_Cjs 0.1     --anchor_count_threshold 50     --anchor_samples_threshold 1     --anchor_unique_targets_threshold 1     --n_most_freq_targets 10     --n_most_freq_targets_for_stats 0     --opt_num_inits 10     --opt_num_iters 50     --num_rand_cf 50     --num_splits 1     --opt_train_fraction 0.25               --sample_names sample_name_to_id.mapping.txt     --format splash                    splash-tmp-6e8a1b70b8ed4d30a9665cbdd61ec140/result.bin15.stats.tsv splash-tmp-6e8a1b70b8ed4d30a9665cbdd61ec140/files.bin15.lst
+Parameters:
+	anchor_count_threshold                  : 50
+	anchor_unique_targets_threshold         : 1
+	anchor_samples_threshold                : 1
+	technology                              : base
+	without_alt_max                         : false
+	without_sample_spectral_sum             : false
+	with_effect_size_cts                    : false
+	with_pval_asymp_opt                     : false
+	compute_also_old_base_pvals             : false
+	without_seqence_entropy                 : false
+	outpath                                 : splash-tmp-6e8a1b70b8ed4d30a9665cbdd61ec140/result.bin15.stats.tsv
+	anchor_list                             : 
+	cjs_out                                 : 
+	max_pval_opt_for_Cjs                    : 0.1
+	sample_names	                          : sample_name_to_id.mapping.txt
+	n_most_freq_targets                     : 10
+	n_most_freq_targets_for_stats           : 0
+	opt_train_fraction                      : 0.25
+	opt_num_inits                           : 10
+	opt_num_iters                           : 50
+	num_rand_cf                             : 50
+	num_splits                              : 1
+	cell_type_samplesheet                   : 
+	Cjs_samplesheet                         : 
+	 dump_sample_anchor_target_count_txt    : 
+	 dump_sample_anchor_target_count_binary : 
+	 format                                 : splash
+	input bins:
+		splash-tmp-6e8a1b70b8ed4d30a9665cbdd61ec140/wt.15.bin
+		splash-tmp-6e8a1b70b8ed4d30a9665cbdd61ec140/mutant.15.bin
+Warning: no anchors in splash-tmp-6e8a1b70b8ed4d30a9665cbdd61ec140/wt.15.bin
+tot writen anchors                                : 0
+tot writen records                                : 0
+n samples in max contignency matrix               : 0
+n targets in max contignency matrix               : 0
+tot_filtered_out_anchors				          : 1
+Time: 0.0263393s
+	Command being timed: "/scratch/users/khoang99/build/splash2.6.1/satc_merge --technology base --max_pval_opt_for_Cjs 0.1 --anchor_count_threshold 50 --anchor_samples_threshold 1 --anchor_unique_targets_threshold 1 --n_most_freq_targets 10 --n_most_freq_targets_for_stats 0 --opt_num_inits 10 --opt_num_iters 50 --num_rand_cf 50 --num_splits 1 --opt_train_fraction 0.25 --sample_names sample_name_to_id.mapping.txt --format splash splash-tmp-6e8a1b70b8ed4d30a9665cbdd61ec140/result.bin15.stats.tsv splash-tmp-6e8a1b70b8ed4d30a9665cbdd61ec140/files.bin15.lst"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 14%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 948
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 274
+	Voluntary context switches: 12
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+2025-01-05 00:01:25: /usr/bin/time -v /scratch/users/khoang99/build/splash2.6.1/satc_merge     --technology base                                        --max_pval_opt_for_Cjs 0.1     --anchor_count_threshold 50     --anchor_samples_threshold 1     --anchor_unique_targets_threshold 1     --n_most_freq_targets 10     --n_most_freq_targets_for_stats 0     --opt_num_inits 10     --opt_num_iters 50     --num_rand_cf 50     --num_splits 1     --opt_train_fraction 0.25               --sample_names sample_name_to_id.mapping.txt     --format splash                    splash-tmp-6e8a1b70b8ed4d30a9665cbdd61ec140/result.bin75.stats.tsv splash-tmp-6e8a1b70b8ed4d30a9665cbdd61ec140/files.bin75.lst
+Parameters:
+	anchor_count_threshold                  : 50
+	anchor_unique_targets_threshold         : 1
+	anchor_samples_threshold                : 1
+	technology                              : base
+	without_alt_max                         : false
+	without_sample_spectral_sum             : false
+	with_effect_size_cts                    : false
+	with_pval_asymp_opt                     : false
+	compute_also_old_base_pvals             : false
+	without_seqence_entropy                 : false
+	outpath                                 : splash-tmp-6e8a1b70b8ed4d30a9665cbdd61ec140/result.bin75.stats.tsv
+	anchor_list                             : 
+	cjs_out                                 : 
+	max_pval_opt_for_Cjs                    : 0.1
+	sample_names	                          : sample_name_to_id.mapping.txt
+	n_most_freq_targets                     : 10
+	n_most_freq_targets_for_stats           : 0
+	opt_train_fraction                      : 0.25
+	opt_num_inits                           : 10
+	opt_num_iters                           : 50
+	num_rand_cf                             : 50
+	num_splits                              : 1
+	cell_type_samplesheet                   : 
+	Cjs_samplesheet                         : 
+	 dump_sample_anchor_target_count_txt    : 
+	 dump_sample_anchor_target_count_binary : 
+	 format                                 : splash
+	input bins:
+		splash-tmp-6e8a1b70b8ed4d30a9665cbdd61ec140/wt.75.bin
+		splash-tmp-6e8a1b70b8ed4d30a9665cbdd61ec140/mutant.75.bin
+Warning: no anchors in splash-tmp-6e8a1b70b8ed4d30a9665cbdd61ec140/wt.75.bin
+Warning: no anchors in splash-tmp-6e8a1b70b8ed4d30a9665cbdd61ec140/mutant.75.bin
+tot writen anchors                                : 0
+tot writen records                                : 0
+n samples in max contignency matrix               : 0
+n targets in max contignency matrix               : 0
+tot_filtered_out_anchors				          : 0
+Time: 0.0193832s
+	Command being timed: "/scratch/users/khoang99/build/splash2.6.1/satc_merge --technology base --max_pval_opt_for_Cjs 0.1 --anchor_count_threshold 50 --anchor_samples_threshold 1 --anchor_unique_targets_threshold 1 --n_most_freq_targets 10 --n_most_freq_targets_for_stats 0 --opt_num_inits 10 --opt_num_iters 50 --num_rand_cf 50 --num_splits 1 --opt_train_fraction 0.25 --sample_names sample_name_to_id.mapping.txt --format splash splash-tmp-6e8a1b70b8ed4d30a9665cbdd61ec140/result.bin75.stats.tsv splash-tmp-6e8a1b70b8ed4d30a9665cbdd61ec140/files.bin75.lst"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 18%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 932
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 270
+	Voluntary context switches: 12
+	Involuntary context switches: 5
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

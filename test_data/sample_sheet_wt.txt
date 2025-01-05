@@ -1,0 +1,2 @@
+wt /oak/stanford/groups/horence/khoa/scratch/scripts/Lossy/test_data/test_seqs/protein_sequences.fasta
+mutant /oak/stanford/groups/horence/khoa/scratch/scripts/Lossy/test_data/test_seqs/protein_sequences_mutated.fasta

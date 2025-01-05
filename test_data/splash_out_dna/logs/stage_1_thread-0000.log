@@ -1,0 +1,118 @@
+2025-01-05 00:00:11: /usr/bin/time -v /scratch/users/khoang99/build/splash2.6.1/kmc -t32 -fa -b -ci1 -cs65535 -k54  -m12 /oak/stanford/groups/horence/khoa/scratch/scripts/Lossy/test_data/test_seqs/protein_sequences_mutated.fasta splash-tmp-b6704cf8f8734514aae4379678081759/mutant splash-tmp-b6704cf8f8734514aae4379678081759/kmc_tmp_mutant
+**
+Stage 1: 0%Stage 1: 100%
+Stage 2: 0%Stage 2: 100%
+1st stage: 0.43512s
+2nd stage: 5.01875s
+Total    : 5.45387s
+Tmp size : 0MB
+
+Stats:
+   No. of k-mers below min. threshold :            0
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :            7
+   No. of unique counted k-mers       :            7
+   Total no. of k-mers                :            7
+   Total no. of reads                 :            1
+   Total no. of super-k-mers          :            1
+	Command being timed: "/scratch/users/khoang99/build/splash2.6.1/kmc -t32 -fa -b -ci1 -cs65535 -k54 -m12 /oak/stanford/groups/horence/khoa/scratch/scripts/Lossy/test_data/test_seqs/protein_sequences_mutated.fasta splash-tmp-b6704cf8f8734514aae4379678081759/mutant splash-tmp-b6704cf8f8734514aae4379678081759/kmc_tmp_mutant"
+	User time (seconds): 3.33
+	System time (seconds): 0.50
+	Percent of CPU this job got: 69%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.52
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 64636
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 18394
+	Voluntary context switches: 31090
+	Involuntary context switches: 651
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 2208
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+2025-01-05 00:00:16: /usr/bin/time -v /scratch/users/khoang99/build/splash2.6.1/kmc_tools -t32 transform splash-tmp-b6704cf8f8734514aae4379678081759/mutant sort splash-tmp-b6704cf8f8734514aae4379678081759/mutant.sorted
+in1: 0% in1: 100% 
+	Command being timed: "/scratch/users/khoang99/build/splash2.6.1/kmc_tools -t32 transform splash-tmp-b6704cf8f8734514aae4379678081759/mutant sort splash-tmp-b6704cf8f8734514aae4379678081759/mutant.sorted"
+	User time (seconds): 0.05
+	System time (seconds): 0.02
+	Percent of CPU this job got: 101%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 23888
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 6050
+	Voluntary context switches: 130
+	Involuntary context switches: 26
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+2025-01-05 00:00:16: /usr/bin/time -v /scratch/users/khoang99/build/splash2.6.1/satc             --anchor_len 27             --target_len 27             --n_bins 128             --anchor_sample_counts_threshold 5             --min_hamming_threshold 0             --poly_ACGT_len 8                                       splash-tmp-b6704cf8f8734514aae4379678081759/mutant             splash-tmp-b6704cf8f8734514aae4379678081759/mutant.sorted 1
+Welcome to satc (sample anchor target count)
+anchor len                     : 27
+target len                     : 27
+n bins                         : 128
+outbase                        : splash-tmp-b6704cf8f8734514aae4379678081759/mutant
+anchor_sample_counts_threshold : 5
+poly_ACGT_len                  : 8
+artifacts                      : 
+dont_filter_illumina_adapters  : false
+min_hamming_threshold          : 0
+input sample                   : splash-tmp-b6704cf8f8734514aae4379678081759/mutant.sorted 1
+Header: 
+	sample_id_size_bytes     : 1
+	barcode_size_bytes       : 0
+	anchor_size_bytes        : 7
+	target_size_bytes        : 7
+	counter_size_bytes       : 2
+	barcode_len_symbols      : 0
+	anchor_len_symbols       : 27
+	target_len_symbols       : 27
+	gap_len_symbols          : 0
+
+# poly filtered anchors	               : 0
+# artifacts filtered anchors	       : 0
+# hamming distance filtered anchors    : 0
+# filtered cnt threshold anchors       : 7
+# unique anchors                       : 7
+# out recs                             : 0
+# in recs                              : 7
+	Command being timed: "/scratch/users/khoang99/build/splash2.6.1/satc --anchor_len 27 --target_len 27 --n_bins 128 --anchor_sample_counts_threshold 5 --min_hamming_threshold 0 --poly_ACGT_len 8 splash-tmp-b6704cf8f8734514aae4379678081759/mutant splash-tmp-b6704cf8f8734514aae4379678081759/mutant.sorted 1"
+	User time (seconds): 0.25
+	System time (seconds): 0.14
+	Percent of CPU this job got: 28%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.40
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35688
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11533
+	Voluntary context switches: 905
+	Involuntary context switches: 3
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1032
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

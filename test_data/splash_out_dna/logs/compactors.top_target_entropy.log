@@ -1,0 +1,35 @@
+2025-01-05 00:00:19: /usr/bin/time -v /scratch/users/khoang99/build/splash2.6.1/compactors          --max_length 162 --num_threads 64 --epsilon 0.001 --beta 0.5 --num_kmers 2 --input_format fasta         splash-tmp-b6704cf8f8734514aae4379678081759/compactors_input.txt         result.after_correction.scores.top_target_entropy.tsv         result.compactors.top_target_entropy.tsv
+
+SPLASH: compactors
+splash version: 2.6.1
+Querying for anchors...
+Loading anchors...
+0 anchors loaded
+Selecting reads in batches...
+1/1Anchor batches processed successfully
+0 reads found for 0 anchors in 0.0274775 s
+
+Check if your reads have at least 54 bases (anchor_len + num_kmers * kmer_len).
+	Command being timed: "/scratch/users/khoang99/build/splash2.6.1/compactors --max_length 162 --num_threads 64 --epsilon 0.001 --beta 0.5 --num_kmers 2 --input_format fasta splash-tmp-b6704cf8f8734514aae4379678081759/compactors_input.txt result.after_correction.scores.top_target_entropy.tsv result.compactors.top_target_entropy.tsv"
+	User time (seconds): 0.24
+	System time (seconds): 0.07
+	Percent of CPU this job got: 94%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.33
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 83364
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 20910
+	Voluntary context switches: 132
+	Involuntary context switches: 5
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
